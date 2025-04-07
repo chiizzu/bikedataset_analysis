@@ -3,9 +3,9 @@ This repository is for dicoding course submission
 
 # setup Environment Shell/Terminal
 mkdir Proyek_analisis_data
-cd Proyek_analisis_data
-pipenv install
-pipenv shell
+<br/>cd Proyek_analisis_data
+<br/>pipenv install
+<br/>pipenv shell
 
 # run Streamlit
 streamlit run bike_stream.py
