@@ -14,7 +14,7 @@ It explores the classical **[Bike Sharing Dataset](https://archive.ics.uci.edu/m
 
 ## Quick Start
 
-```bash
+bash
 # 1 . Clone the repo
 git clone https://github.com/chiizzu/bikedataset_analysis.git
 cd bikedataset_analysis
@@ -32,15 +32,16 @@ jupyter notebook Proyek_Analisis_Data.ipynb
 # 5 . Launch the Streamlit app
 streamlit run bike_stream.py
 
-## Repository Structure
+# Repository Structure
+```
 ├── data/                     # Raw dataset (day.csv, hour.csv)
 ├── dashboard/
 │   └── bike_stream.py        # Streamlit dashboard source
 ├── Proyek_Analisis_Data.ipynb# Full EDA notebook
 ├── requirement.txt           # Python dependencies
 └── README.md                 # You are here :)
-
-## Key Insight
+```
+# Key Insight
 | Theme                  | Highlight                                                                             |
 | ---------------------- | ------------------------------------------------------------------------------------- |
 | Seasonality            | Ridership peaks in late summer; sharp dips in winter.                                 |
@@ -48,7 +49,7 @@ streamlit run bike_stream.py
 | Working‑day effect     | Weekdays show bimodal rush‑hour spikes; weekends trend smoother across the afternoon. |
 | Temperature versus use | Optimal rental occurs around 25 °C; extreme cold/heat suppress demand.                |
 
-## Tech Stack
+# Tech Stack
 | Layer       | Tools & Libraries                          |
 | ----------- | ------------------------------------------ |
 | Core Python | `pandas`, `numpy`, `matplotlib`, `seaborn` |
